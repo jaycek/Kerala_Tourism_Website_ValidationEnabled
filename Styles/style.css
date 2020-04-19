@@ -1,0 +1,74 @@
+   .header{display:table-cell; position:fixed; z-index:999;top:0; left:0; vertical-align:middle; width:100%; padding:0; background-color:rgba(255,255,255,.1);box-shadow:0 5px 10px rgba(0, 0, 0, .1);}
+   .header.header-bg{background-color:rgb(0, 115, 10);transition: background-color 200ms linear; border-bottom:0px solid #fff}
+   .in-header{position:relative;background-color:#acb7ae; margin-bottom:0; height:auto}
+   .container{width:100%; max-width:1600px}
+   .top-menu{font-family: 'Oswald', sans-serif; width:auto; list-style:none; margin:0; padding:0; font-size:18px; line-height:20px; float:right; margin:18px 0 10px 0;text-shadow:1px 1px 0 rgba(0, 0, 0, .5); line-height:30px}
+   .top-menu li{width:auto; list-style:none; margin:0; padding:0 10px; float:left}
+   .top-menu li a{color:#FFF;display:inline-block}
+   .logo{padding:18px 0 }
+   .logo img{max-width:200px; background: rgba(255, 255, 255, 0.3);}
+   .header.menu{display:none}
+   .menu-wrapper{width:100%; margin:0; padding:0}
+   .menu-wrapper.top-menu{margin:0; text-align:left; padding:5px 0; width:100%; border-bottom:1px solid rgba(255,255,255,.15);}
+   .menu-wrapper.top-menu li{text-align:left; width:50%; border-top:1px solid rgba(255,255,255,.15); padding:5px 0; }
+   .content-main{text-align: center;margin:25px}
+   .p{font-family: 'Oswald', sans-serif;}
+   .three-fourth {
+    float: left;
+    width: 74.5%;
+    margin: 0 0 -24px 0;
+}
+body{
+    /* background-image: url('https://i.dlpng.com/static/png/4634361-twitter-hex-colors-css-gradient-brand-gradients-gradient-background-png-1920_1080_preview.png');
+    background-repeat: repeat;  */
+    background-color: #e4decd;
+    
+}
+.galleryouter1 {
+    padding: 20px 2%;
+    width: 96%;
+    /* background: #FFF; */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    float: left;
+    margin-top: 40px;
+}
+.innergallery {
+    width: 100%;
+    float: left;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(41, 19, 19);
+    text-align: center;
+  }
+  .banner {
+    width: 100%;
+    height: 198px;
+    position: relative;
+    background: url('https://www.keralaholidays.com/images/banner-1.jpg') center no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+
+.overlay-lefttop{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.banner-content {
+    padding-top: 70px;
+}
+.abt-top-content {
+    padding: 35px 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;;
+    font-size: x-large;
+    font-style:unset;
+    color:brown;
+}

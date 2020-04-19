@@ -1,0 +1,28 @@
+.about{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    text-align: justify; 
+    color:black;
+    border-style: ridge;
+    border-color: bisque;
+    padding:5px;
+    }
+.at-a-glance{
+    list-style-image: url('../Images/district.jpg');
+    list-style-position: outside;
+    margin: 0px 0px 0px 50px;
+    border-style: ridge;
+    border-color: bisque;
+}
+.heading{
+    text-align: center;
+ 
+}
+.guide{
+    list-style-image: url('../Images/tourism-guide.png');
+    list-style-position: outside;
+    margin: 0px 0px 0px 50px;
+    border-style: ridge;
+    border-color: bisque;
+    padding:5x;
+}
